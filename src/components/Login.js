@@ -11,7 +11,7 @@ import firebase from 'firebase/app';
                  <h2>Welcome to Unichat!</h2>
                  <div className="login-button google" onClick={()=>auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}><GoogleOutlined/>Sign In With Google</div>
                  <br/><br/>
-                 <div className="login-button facebook" onClick={()=>auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}><GoogleOutlined/>Sign In With facebook</div>
+                 <div className="login-button facebook" onClick={()=>auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}><FacebookOutlined/>Sign In With facebook</div>
              </div>
          </div>
      )
